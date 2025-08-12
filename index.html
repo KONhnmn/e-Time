@@ -82,7 +82,8 @@
     </div>
 
     <div class="content">
-      <form onsubmit="rickroll(); return false;">
+      <h2>Connexion à votre compte e2Time</h2>
+      <form onsubmit="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'; return false;">
         <input type="text" placeholder="Identifiant" required />
         <input type="password" placeholder="Mot de passe" required />
         <button type="submit">Se connecter</button>
@@ -93,14 +94,5 @@
       &copy; e2Time 2025 - Ce service est réservé aux utilisateurs autorisés.
     </div>
   </div>
-
-  <script>
-    function rickroll() {
-      alert('Connexion en cours...');
-      setTimeout(function() {
-        window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-      }, 1500);
-    }
-  </script>
 </body>
 </html>
